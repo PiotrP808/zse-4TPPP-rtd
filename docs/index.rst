@@ -14,8 +14,9 @@ Spis treści
 -----------
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Zawartość dokumentacji:
 
    skladnia
    autor
+
