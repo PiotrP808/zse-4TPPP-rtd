@@ -1,22 +1,9 @@
-Strona główna projektu
-======================
-
-Witamy w dokumentacji przykładowego projektu.  
-Ta strona stanowi główny punkt wejścia do dokumentacji.
-
-Znajdziesz tu:
-- spis treści,
-- podstronę z wykazem składni elementów dokumentu,
-- podstronę "O Autorze".
-
-
-Spis treści
------------
+dokumentacja projektu
+==============================
 
 .. toctree::
    :maxdepth: 1
-   :caption: Zawartość dokumentacji:
+   :caption: spis treści
 
    skladnia
    autor
-
