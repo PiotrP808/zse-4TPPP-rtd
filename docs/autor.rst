@@ -13,4 +13,5 @@ Dane autora
 Kontakt
 -------
 
-Piotr.pluskota@zsegw.pl
+piotr.pluskota@zsegw.pl
+
