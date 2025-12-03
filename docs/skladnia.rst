@@ -1,87 +1,101 @@
-Wynotowana składnia elementów dokumentu
-=======================================
+Skladnia
+================================
 
-Nagłówki
---------
+naglowki (poziomy 1-4)
+----------------------
 
-Poziomy nagłówków:
+naglowek 1:
+===========
 
-Tytuł 1
-=======
+naglowek 2:
+-----------
 
-Tytuł 2
--------
+naglowek 3:
+~~~~~~~~~~~
 
-Tytuł 3
-~~~~~~~
+naglowek 4:
+^^^^^^^^^^^
 
-Tytuł 4
-"""""""
+akapit tekstowy
+----------------
 
-Akapity
--------
 
-To jest przykład zwykłego akapitu.
+to jest zwykly akapit tekstu w rst
+
+akapit informacyjny
+--------------------
 
 .. note::
 
-   To jest akapit informacyjny typu Note.
+  notatka
 
 .. tip::
 
-   To jest akapit typu Tip.
+ porada
 
-Kod
+kod
 ---
 
-Kod w linii: ``print("Hello")``
+kod liniowy: ``print("cos!")``
 
-Blok kodu:
+kod blokowy:
 
 .. code-block:: python
 
-   def funkcja():
-       print("Przykład")
+   print("cos tam jakis kod")
+   x = 5
+   print(x)
 
-Linki
------
+odnośniki
+---------
 
-Link zewnętrzny:
+zewnętrzny link:  
+`read the docs <https://readthedocs.org>`_
 
-`GitHub <https://github.com>`_
+lokalny link:  
+:doc:`autor`
 
-Link wewnętrzny:
-
-:ref:`autor`
-
-Listy
------
-
-- lista wypunktowana
-- drugi element
-
-1. lista numerowana
-2. kolejny element
-
-Lista definicji:
-
-Termin
-   Wyjaśnienie terminu.
-
-Obraz
------
-
-.. figure:: images/przyklad.png
-   :alt: Przykładowy obraz
-   :align: center
-
-   Przykładowy podpis pod obrazkiem.
-
-Tabela
+listy
 ------
 
-+----------+----------+
-| A        | B        |
-+==========+==========+
-| 1        | 2        |
-+----------+----------+
+lista wypunktowana:
+
+- element 1
+- element 2
+- element 3
+
+lista numerowana:
+
+1. pierwszy
+2. drugi
+3. trzeci
+
+lista definicji:
+
+termin 1
+   opis terminu 1
+
+termin 2
+   opis terminu 2
+
+obraz
+-----
+
+.. image:: obrazek.png
+   :alt: opis alternatywny obrazka
+   :align: center
+   :figwidth: 300px
+   :figcaption: podpis 
+  
+tabela
+------
+
+.. list-table::
+   :header-rows: 1
+
+   * - kolumna 1
+     - kolumna 2
+   * - wartosc 1
+     - wartosc 2
+   * - wartosc 3
+     - wartosc 4
